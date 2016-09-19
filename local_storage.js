@@ -1,4 +1,3 @@
-var core_1 = require('angular2/core');
 var LocalStorage = (function () {
     function LocalStorage() {
         if (!localStorage) {
@@ -24,6 +23,6 @@ var LocalStorage = (function () {
     return LocalStorage;
 })();
 exports.LocalStorage = LocalStorage;
-exports.LOCAL_STORAGE_PROVIDERS = [
-    core_1.provide(LocalStorage, { useClass: LocalStorage })
-];
+exports.LOCAL_STORAGE_PROVIDERS = { 
+    provide: LocalStorage, useClass: LocalStorage 
+};

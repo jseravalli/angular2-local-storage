@@ -22,6 +22,5 @@
   },
   "homepage": "https://github.com/rrgarciach/angular2-local-storage#readme",
   "devDependencies": {
-    "angular2": "^2.0.0-beta.0"
   }
 }
